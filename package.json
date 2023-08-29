@@ -1,12 +1,12 @@
 {
-  "name": "stimulus-form-validation",
+  "name": "hotwired-stimulus-validation",
   "version": "0.0.1",
   "description": "Stimulus validation controller based on html5",
   "main": "dist/index.js",
   "umd:main": "dist/index.umd.js",
   "module": "dist/index.m.js",
   "source": "src/index.js",
-  "author": "@jwald1",
+  "author": "@honeypc",
   "license": "MIT",
   "external": "@hotwired/stimulus",
   "scripts": {
@@ -14,13 +14,13 @@
     "build": "rollup -c",
     "dev": "rollup -wc"
   },
-  "homepage": "https://github.com/jwald1/stimulus-form-validation",
+  "homepage": "https://github.com/honeypc/stimulus-form-validation",
   "devDependencies": {
-    "@hotwired/stimulus": ">=3",
     "@babel/core": "^7.10.5",
     "@babel/plugin-proposal-class-properties": "^7.10.4",
     "@babel/plugin-transform-classes": "^7.10.4",
     "@babel/preset-env": "^7.10.4",
+    "@hotwired/stimulus": ">=3",
     "@rails/ujs": "^6.0.3-2",
     "@rollup/plugin-babel": "^5.1.0",
     "@rollup/plugin-node-resolve": "^8.4.0",
@@ -35,5 +35,6 @@
   },
   "peerDependencies": {
     "@hotwired/stimulus": ">= 3"
-  }
+  },
+  "repository": "git@github.com:honeypc/stimulus-form-validation.git"
 }
