@@ -1,6 +1,6 @@
 {
   "name": "hotwired-stimulus-validation",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Stimulus validation controller based on html5",
   "main": "dist/index.js",
   "umd:main": "dist/index.umd.js",
